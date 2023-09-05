@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T05:46:11.523Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.2" etag="i71ykhRacuYL-40NfE1P" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T05:55:55.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KjqcuYyDKgUvk-wvTgzT" version="21.7.2" type="github">
   <diagram name="Page-1" id="Ak3fyxql0BMQoSDd1BAf">
-    <mxGraphModel>
+    <mxGraphModel dx="1035" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X0dnYVbtNP7oX1JLoRN4-1" value="Pemain" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="90" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="X0dnYVbtNP7oX1JLoRN4-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="450" width="90" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
