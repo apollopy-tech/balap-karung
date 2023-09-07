@@ -9,6 +9,7 @@ class Pemain {
   
   tampilkan(){
     fill(this.warna)
+    stroke(this.warna)
     circle(this.x, this.y, this.d)
     
   }
