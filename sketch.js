@@ -40,9 +40,9 @@ function keyPressed() {
     pemain2.maju()
   }
     else if (keyCode === UP_ARROW){
-    pemain2.maju()
+    pemain3.maju()
   }
     else if (keyCode === DOWN_ARROW){
-    pemain2.maju()
+    pemain4.maju()
   }
 }
