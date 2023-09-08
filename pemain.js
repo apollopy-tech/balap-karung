@@ -9,7 +9,6 @@ class Pemain {
   
   tampilkan(){
     fill(this.warna)
-    stroke(this.warna)
     circle(this.x, this.y, this.d)
     
   }
@@ -26,5 +25,6 @@ class Pemain {
       text('Finish', width/2 , height/2)
       noLoop()
     }
+    
   }
 }
