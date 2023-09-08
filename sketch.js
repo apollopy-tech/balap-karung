@@ -6,7 +6,7 @@ let bg
 
 function preload() {
   soundFormats('mp3')
-  sfxLoncat =loadSound('set.mp3')
+  sfxLoncat =loadSound('fast-simple-chop-5-6270.mp3')
   bg = loadImage('lapang.jpeg')
 }
 
