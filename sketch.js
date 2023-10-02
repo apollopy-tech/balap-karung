@@ -1,13 +1,15 @@
 let x,y
 let pemain1,pemain2
 let sfxLoncat
-let bg
+let bg, p1img, p2img
 
 
 function preload() {
   soundFormats('mp3')
-  sfxLoncat =loadSound('fast-simple-chop-5-6270.mp3')
-  bg = loadImage('lapang.jpeg')
+  sfxLoncat =loadSound('jump.mp3')
+  bg = loadImage('t.png')
+  p1img = loadImage('boy-player.png')
+  p2img = loadImage('girl-player.png')
 }
 
 function garis(x,y){
@@ -17,15 +19,15 @@ function garis(x,y){
 function setup() {
   createCanvas(550, 400);
   
-  pemain1 = new Pemain(110, 'green')
-  pemain2 = new Pemain(height-110, 'red')
+  pemain1 = new Pemain(110, p1img)
+  pemain2 = new Pemain(height-155, p2img)
 }
 
 function draw() {
   background(bg);
 
-  garis(100,50)
-  garis(width-100,50)
+  garis(90,50)
+  garis(width-90,50)
   
   pemain1.tampilkan()
   pemain2.tampilkan()
